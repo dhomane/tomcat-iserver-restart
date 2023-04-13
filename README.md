@@ -1,1 +1,1 @@
-# Bash Scripts for scheduling I-server restart
+# Bash Scripts for scheduling Tomcat and I-server restart
