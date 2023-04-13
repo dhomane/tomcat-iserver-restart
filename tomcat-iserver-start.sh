@@ -1,6 +1,13 @@
 #/bin/bash
 
 
+# Start Tomcat
+
+sudo service mstr tomcatstart
+
+
+# Start I-Server
+
 sudo service mstr iserverstart
 
 
@@ -13,7 +20,6 @@ if sudo service mstr status | grep "Intelligence Server is in running status";
   then iserver_status=1
 else iserver_status=0
 fi
-
 
 if [[ $iserver_status -eq 1 ]];
    then break
