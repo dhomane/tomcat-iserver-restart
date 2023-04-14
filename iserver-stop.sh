@@ -1,12 +1,8 @@
-#/bin/bash
-
-
-# Stop Tomcat
-sudo service mstr tomcatstop
-
-sleep 10
+#!/bin/bash
 
 # Stop I-Server
+
+sleep 120
 
 sudo service mstr iserverstop
 

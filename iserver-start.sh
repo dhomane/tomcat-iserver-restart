@@ -1,10 +1,4 @@
-#/bin/bash
-
-
-# Start Tomcat
-
-sudo service mstr tomcatstart
-
+#!/bin/bash
 
 # Start I-Server
 
