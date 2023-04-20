@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo " `date` Test " > /tmp/test.txt
+echo " `date` Test " > /tmp/test2.txt
 
 
 
