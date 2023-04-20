@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-# Start Tomcat
+echo " `date` Test "
 
-sudo service mstr tomcatstart
+
 
 sleep 10
