@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-# Stop Tomcat
+echo " `date` Test "
 
-sudo service mstr tomcatstop
+
 
 sleep 10
