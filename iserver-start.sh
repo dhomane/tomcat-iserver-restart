@@ -21,6 +21,6 @@ fi
 done
 
 
-
+echo "Tomcat and I-Server restart Workflow completed" > /tmp/test.txt
 
 sleep 10
